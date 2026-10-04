@@ -57,7 +57,7 @@ void init_locale(void)
 }
 
 // Define if you want Flash hosted. Policy file will automatically be generated.
-#define FLASH_ENABLED
+//#define FLASH_ENABLED
 
 // Upload limit for ENTIRE SERVER, TCP + UDP, in bytes
 // UDP messages received above this limit will be discarded
