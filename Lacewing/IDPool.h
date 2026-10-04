@@ -49,7 +49,7 @@ public:
 	/// <summary> Creates an ID pool. First ID returned is 0. </summary>
 	IDPool()
 	{
-		nextID = 0;
+		nextID = 1;
 		borrowedCount = 0;
 	}
 
